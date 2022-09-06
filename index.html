@@ -1,47 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <nav class="navbar">
-    <a class="navbar-brand" href="#">
-        <div class="icon-container">
-            <img class="icon hexagon" />
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">
+        <figure class="icon-container">
+          <img class="icon hexagon" alt="" />
+        </figure>
         <span class="name">Logo Dash</span>
-    </a>
-    <ul class="navbar-nav">
+      </a>
+      <ul class="navbar-nav">
         <li>
-            <a class="active"><img class="icon home" /><span>Home</span></a>
+          <a class="active"><img class="icon home" alt="" /><span>Home</span></a>
         </li>
         <li>
-            <a><img class="icon statistics" /><span>Statistics</span></a>
+          <a><img class="icon statistics" alt="" /><span>Statistics</span></a>
         </li>
         <li>
-            <a><img class="icon mail" /><span>Messages</span></a>
+          <a><img class="icon mail" alt="" /><span>Messages</span></a>
         </li>
         <li>
-            <a><img class="icon user" /><span>Profile</span></a>
+          <a><img class="icon user" alt="" /><span>Profile</span></a>
         </li>
         <li>
-            <a><img class="icon file" /><span>Documents</span></a>
+          <a><img class="icon file" alt="" /><span>Documents</span></a>
         </li>
-    </ul>
-    <div class="navbar-footer">
-        <img class="image-documents" src="https://ozcanzaferayan.github.io/financial-crm/img/documents.svg" alt="documents" />
+      </ul>
+      <div class="navbar-footer">
+        <img
+          class="image-documents"
+          src="https://ozcanzaferayan.github.io/financial-crm/img/documents.svg"
+          alt="documents"
+        />
         <div class="container">
-            <h2>PDF Report</h2>
-            <span>Annual detailed report</span>
-            <a href="#" download>Download</a>
+          <h2>PDF Report</h2>
+          <span>Annual detailed report</span>
+          <a href="#" download>Download</a>
         </div>
-    </div>
-</nav>
-  <main class="main">
-    
-  </main>
-</body>
+      </div>
+    </nav>
+    <main>
+        <header>
+            <section role="search">
+                <form action="#" method="get">
+                    <div class="form-inline">
+                        <img class="icon search" alt=""/>
+                        <input type="search" placeholder="Search" />
+                    </div>
+                </form>
+            </section>
+
+            <section role="application">
+                <button class="change-view">
+                    <img class="icon layout" alt=""/>Change view
+                </button>
+                <button class="notification">
+                    <img class="icon notification" alt=""/>1
+                </button>
+                <button class="menu">
+                    <img class="icon menu" alt=""/>1
+                </button>
+            </section>
+        </header>
+        <h1>Overview</h1>
+        <div class="charts-wrapper">           
+            <section role="contentinfo" class="exchange-rates">
+                <h3 class="title">Exchange rates</h3>
+                <canvas id="exchangeRates"></canvas>
+            </section>
+            <section role="contentinfo" class="last-costs">
+                <h3 class="title">Last Costs</h3>
+                <canvas id="last_costs"></canvas>
+
+            </section>
+            <section role="contentinfo" class="efficiency">
+                <h3 class="title">Efficiency</h3>
+                <canvas id="efficiency"></canvas>
+            </section>
+        </div>
+    </main>
+  </body>
 </html>
