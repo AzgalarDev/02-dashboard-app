@@ -1,5 +1,27 @@
 {
   "devDependencies": {
     "sass": "^1.54.5"
-  }
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1"
+  },
+  "name": "dashboard",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzgalarDev/03-dashboard-app.git"
+  },
+  "author": "AzgalarDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzgalarDev/03-dashboard-app/issues"
+  },
+  "homepage": "https://github.com/AzgalarDev/03-dashboard-app#readme"
 }

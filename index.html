@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/css/index.css" />
-    <title>Document</title>
+    <title>EMV</title>
   </head>
   <body>
     <nav class="navbar">
@@ -13,7 +13,7 @@
         <figure class="icon-container">
           <img class="icon hexagon" alt="" />
         </figure>
-        <span class="name">Logo Dash</span>
+        <span class="name">EMV Dashboard</span>
       </a>
       <ul class="navbar-nav">
         <li>
@@ -71,19 +71,18 @@
         <h1>Overview</h1>
         <div class="charts-wrapper">           
             <section role="contentinfo" class="exchange-rates">
-                <h3 class="title">Exchange rates</h3>
-                <canvas id="exchangeRates"></canvas>
+                <h3 class="title">Data Covid-19</h3>
+                <canvas id="doughnutdata"></canvas>
             </section>
             <section role="contentinfo" class="last-costs">
-                <h3 class="title">Last Costs</h3>
-                <canvas id="last_costs"></canvas>
+                <h3 class="title">Bar Data</h3>
+                <canvas id="bardata"></canvas>
 
-            </section>
-            <section role="contentinfo" class="efficiency">
-                <h3 class="title">Efficiency</h3>
-                <canvas id="efficiency"></canvas>
             </section>
         </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>

@@ -21,6 +21,7 @@ body {
   background-color: var(--white);
   color: var(--primary-color);
   display: flex;
+  flex-direction: row;
   flex: 1;
 }
 * ,.navbar {
@@ -34,7 +35,7 @@ body {
   flex-direction: column;
   padding: 1.5em;
   font-weight: 600;
-  width: 17em;
+  width: 28%;
   justify-content: space-around;
   
 }
@@ -231,12 +232,13 @@ body {
 }
 /*HEADER*/
 main {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
   margin-top: 1em;
   margin-right: 1em;
   border-radius: 2.5em;
-  margin-left: 18.75em;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: var(--background-color);
   padding: 2.3em;
 }
@@ -359,4 +361,21 @@ main h1 {
   main header {
       padding: 0.5em 0.7em;
   }
+}
+
+main section[role="contentinfo"] {
+  width: 95%;
+  margin-left: 1em;
+  height: 18em;
+  background-color: var(--white);
+  border-radius: 2em;
+  margin-bottom: 1em;
+  padding: 2em;
+  padding-bottom: 5em;
+
+}
+section[role="contentinfo"] .title {
+  color: var(--black);
+  font-weight: 700;
+  margin-top: 0;
 }
