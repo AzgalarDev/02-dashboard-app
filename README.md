@@ -2,8 +2,8 @@
 
 ## Data Covid-19 Api
 
-![Design preview for the Insure landing page coding challenge](./design/PreviewDesktop.PNG)
-![Design preview for the Insure landing page coding challenge](./design/PreviewMobile.PNG)
+![Design preview for the Insure landing page coding challenge](./desing/PreviewDesktop.PNG)
+![Design preview for the Insure landing page coding challenge](./desing/PreviewMobile.PNG)
 
 
 # Execute app
