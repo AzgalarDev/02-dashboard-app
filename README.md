@@ -6,14 +6,14 @@
 ![Design preview for the Insure landing page coding challenge](./desing/PreviewMobile.PNG)
 
 
-# Execute app
-execute.
+## Execute app
+execute
 npm install
 
-# API Covid-19
+## API Covid-19
 
 https://disease.sh/
 
-# Dependencies
+## Dependencies
 npm i chart.js
 npm i axios
