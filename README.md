@@ -7,7 +7,7 @@
 
 
 # Execute app
-execute
+execute.
 npm install
 
 # API Covid-19
